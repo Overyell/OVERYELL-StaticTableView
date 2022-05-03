@@ -19,6 +19,7 @@
 		AF70F1FE28210EA6004513EF /* TableViewCellFour.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF70F1FD28210EA6004513EF /* TableViewCellFour.swift */; };
 		AF70F20028210EAE004513EF /* TableViewCellFive.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF70F1FF28210EAE004513EF /* TableViewCellFive.swift */; };
 		AF70F20228210EB8004513EF /* TableViewCellSix.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF70F20128210EB8004513EF /* TableViewCellSix.swift */; };
+		AFD515C8282188E200144B93 /* overyell.com_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = AFD515C7282188E200144B93 /* overyell.com_logo.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		AF70F1FF28210EAE004513EF /* TableViewCellFive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCellFive.swift; sourceTree = "<group>"; };
 		AF70F20128210EB8004513EF /* TableViewCellSix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCellSix.swift; sourceTree = "<group>"; };
 		AF70F20328213B36004513EF /* OVERYELL-StaticTableView.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "OVERYELL-StaticTableView.entitlements"; sourceTree = "<group>"; };
+		AFD515C7282188E200144B93 /* overyell.com_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = overyell.com_logo.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 		AF70F1F628210DBC004513EF /* Setup */ = {
 			isa = PBXGroup;
 			children = (
+				AFD515C62821885200144B93 /* Overyell.com */,
 				AF70F1F728210E06004513EF /* TableViewCellOne.swift */,
 				AF70F1F928210E8D004513EF /* TableViewCellTwo.swift */,
 				AF70F1FB28210E98004513EF /* TableViewCellThree.swift */,
@@ -93,6 +96,14 @@
 				AF70F20128210EB8004513EF /* TableViewCellSix.swift */,
 			);
 			path = Setup;
+			sourceTree = "<group>";
+		};
+		AFD515C62821885200144B93 /* Overyell.com */ = {
+			isa = PBXGroup;
+			children = (
+				AFD515C7282188E200144B93 /* overyell.com_logo.png */,
+			);
+			path = Overyell.com;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -156,6 +167,7 @@
 				AF70F1EF28210D8C004513EF /* LaunchScreen.storyboard in Resources */,
 				AF70F1EC28210D8C004513EF /* Assets.xcassets in Resources */,
 				AF70F1EA28210D8B004513EF /* Main.storyboard in Resources */,
+				AFD515C8282188E200144B93 /* overyell.com_logo.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -321,7 +333,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "OVERYELL-StaticTableView/OVERYELL-StaticTableView.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 030913;
+				CURRENT_PROJECT_VERSION = 031753;
 				DEVELOPMENT_TEAM = 269NTZ4862;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "OVERYELL-StaticTableView/Info.plist";
@@ -354,7 +366,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "OVERYELL-StaticTableView/OVERYELL-StaticTableView.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 030913;
+				CURRENT_PROJECT_VERSION = 031753;
 				DEVELOPMENT_TEAM = 269NTZ4862;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "OVERYELL-StaticTableView/Info.plist";

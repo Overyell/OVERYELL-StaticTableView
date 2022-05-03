@@ -106,101 +106,58 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     }()
     
     func Configure() {
-        
-        /// TableViewCellOne
-        models.append(Section(title: "ONE", footer: "Note: Description", options: [
+        models.append(Section(title: "", footer: "Version: 1.22.05, Build: 031753", options: [
             .oneCell(model: SettingsOne(
-                    title: "ONE\none\none\none",
-                    icon: UIImage(systemName: "checkmark.seal"),
+                    title: "OVERYELL.COM\nStaticTableView\n\n05/2022",
+                    icon: UIImage(named: "overyell.com_logo.png"),
                     iconColor: .systemRed,
                     iconBackgroundColor: .clear,
                     handler: {
-                        print("TableViewCellOne - 1 - pressed")
+                        print("TableViewCellOne - pressed")
             })),
         ]))
-        
-        /// TableViewCellTwo
-        models.append(Section(title: "TWO", footer: "Note: Description", options: [
+
+        models.append(Section(title: "StaticTableView", footer: "Note: Description", options: [
             .twoCell(model: SettingsTwo(
-                    title: "TWO - 1",
+                    title: "TWO",
                     icon: UIImage(systemName: "checkmark.seal"),
                     iconColor: .black,
                     iconBackgroundColor: .systemBlue,
                     handler: {
-                        print("TableViewCellTwo - 1 - pressed")
+                        print("TableViewCellTwo - pressed")
             }, isOn: false)),
-            .twoCell(model: SettingsTwo(
-                    title: "TWO - 2",
-                    icon: UIImage(systemName: "checkmark.seal"),
-                    iconColor: .black,
-                    iconBackgroundColor: .systemGreen,
-                    handler: {
-                        print("TableViewCellTwo - 2 - pressed")
-            }, isOn: false)),
-        ]))
-        
-        /// TableViewCellThree
-        models.append(Section(title: "THREE", footer: "Note: Description", options: [
             .threeCell(model: SettingsThree(
-                    title: "THREE - 1",
-                    icon: UIImage(systemName: "checkmark.seal"),
-                    iconColor: .black,
-                    iconBackgroundColor: .systemRed){
-                        print("TableViewCellThree - 1 - pressed")
-            }),
-            .threeCell(model: SettingsThree(
-                    title: "THREE - 2",
+                    title: "THREE",
                     icon: UIImage(systemName: "checkmark.seal"),
                     iconColor: .black,
                     iconBackgroundColor: .systemYellow){
-                        print("TableViewCellThree - 2 - pressed")
+                        print("TableViewCellThree - pressed")
             }),
-        ]))
-        
-        /// TableViewCellFour
-        models.append(Section(title: "FOUR", footer: "Note: Description", options: [
             .fourCell(model: SettingsFour(
-                    title: "FOUR - 1",
+                    title: "FOUR",
                     icon: UIImage(systemName: "checkmark.seal"),
                     iconColor: .white,
                     iconBackgroundColor: .black){
-                        print("TableViewCellFour - 1 - pressed")
+                        print("TableViewCellFour - pressed")
             }),
-            .fourCell(model: SettingsFour(
-                    title: "FOUR - 2",
-                    icon: UIImage(systemName: "checkmark.seal"),
-                    iconColor: .black,
-                    
-                    iconBackgroundColor: .gray){
-                        print("TableViewCellFour - 2 - pressed")
-            }),
-        ]))
-        
-        /// TableViewCellFive
-        models.append(Section(title: "FIVE", footer: "Note: Description", options: [
             .fiveCell(model: SettingsFive(
-                    title: "FIVE - 1",
+                    title: "FIVE",
                     icon: UIImage(systemName: "checkmark.seal"),
                     iconColor: .white,
                     iconBackgroundColor: .clear,
                     handler: {
-                        print("TableViewCellFive - 1 - pressed")
+                        print("TableViewCellFive - pressed")
                     },
                     isSelected: false,
                     isOn: false
-            ))
-        ]))
-        
-        /// TableViewCellSix
-        models.append(Section(title: "SIX", footer: "Note: Description", options: [
+            )),
             .sixCell(model: SettingsSix(
                     handler: {
-                        print("TableViewCellSix - 1 - pressed")
+                        print("TableViewCellSix - pressed")
                     },
                     isSelected: false
             ))
         ]))
-        
     } /// END OF CONFIGURE()
     
     /// Header for each section
