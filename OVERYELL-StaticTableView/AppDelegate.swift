@@ -2,7 +2,8 @@
 //  AppDelegate.swift
 //  OVERYELL-StaticTableView
 //
-//  Created by Benjamin Skomrock on 03.05.22.
+//  Created by Benjamin Skomrock on 05/2022
+//  Copyright © 2022 Overyell.com. All rights reserved.
 //
 
 import UIKit

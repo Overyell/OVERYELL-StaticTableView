@@ -13,6 +13,12 @@
 		AF70F1EA28210D8B004513EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF70F1E828210D8B004513EF /* Main.storyboard */; };
 		AF70F1EC28210D8C004513EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF70F1EB28210D8C004513EF /* Assets.xcassets */; };
 		AF70F1EF28210D8C004513EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF70F1ED28210D8C004513EF /* LaunchScreen.storyboard */; };
+		AF70F1F828210E06004513EF /* TableViewCellOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF70F1F728210E06004513EF /* TableViewCellOne.swift */; };
+		AF70F1FA28210E8D004513EF /* TableViewCellTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF70F1F928210E8D004513EF /* TableViewCellTwo.swift */; };
+		AF70F1FC28210E98004513EF /* TableViewCellThree.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF70F1FB28210E98004513EF /* TableViewCellThree.swift */; };
+		AF70F1FE28210EA6004513EF /* TableViewCellFour.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF70F1FD28210EA6004513EF /* TableViewCellFour.swift */; };
+		AF70F20028210EAE004513EF /* TableViewCellFive.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF70F1FF28210EAE004513EF /* TableViewCellFive.swift */; };
+		AF70F20228210EB8004513EF /* TableViewCellSix.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF70F20128210EB8004513EF /* TableViewCellSix.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +30,13 @@
 		AF70F1EB28210D8C004513EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AF70F1EE28210D8C004513EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AF70F1F028210D8C004513EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF70F1F728210E06004513EF /* TableViewCellOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCellOne.swift; sourceTree = "<group>"; };
+		AF70F1F928210E8D004513EF /* TableViewCellTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCellTwo.swift; sourceTree = "<group>"; };
+		AF70F1FB28210E98004513EF /* TableViewCellThree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCellThree.swift; sourceTree = "<group>"; };
+		AF70F1FD28210EA6004513EF /* TableViewCellFour.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCellFour.swift; sourceTree = "<group>"; };
+		AF70F1FF28210EAE004513EF /* TableViewCellFive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCellFive.swift; sourceTree = "<group>"; };
+		AF70F20128210EB8004513EF /* TableViewCellSix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCellSix.swift; sourceTree = "<group>"; };
+		AF70F20328213B36004513EF /* OVERYELL-StaticTableView.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "OVERYELL-StaticTableView.entitlements"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +69,30 @@
 		AF70F1E128210D8B004513EF /* OVERYELL-StaticTableView */ = {
 			isa = PBXGroup;
 			children = (
+				AF70F20328213B36004513EF /* OVERYELL-StaticTableView.entitlements */,
 				AF70F1E228210D8B004513EF /* AppDelegate.swift */,
 				AF70F1E428210D8B004513EF /* SceneDelegate.swift */,
 				AF70F1E628210D8B004513EF /* ViewController.swift */,
+				AF70F1F628210DBC004513EF /* Setup */,
 				AF70F1E828210D8B004513EF /* Main.storyboard */,
 				AF70F1EB28210D8C004513EF /* Assets.xcassets */,
 				AF70F1ED28210D8C004513EF /* LaunchScreen.storyboard */,
 				AF70F1F028210D8C004513EF /* Info.plist */,
 			);
 			path = "OVERYELL-StaticTableView";
+			sourceTree = "<group>";
+		};
+		AF70F1F628210DBC004513EF /* Setup */ = {
+			isa = PBXGroup;
+			children = (
+				AF70F1F728210E06004513EF /* TableViewCellOne.swift */,
+				AF70F1F928210E8D004513EF /* TableViewCellTwo.swift */,
+				AF70F1FB28210E98004513EF /* TableViewCellThree.swift */,
+				AF70F1FD28210EA6004513EF /* TableViewCellFour.swift */,
+				AF70F1FF28210EAE004513EF /* TableViewCellFive.swift */,
+				AF70F20128210EB8004513EF /* TableViewCellSix.swift */,
+			);
+			path = Setup;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,7 +168,13 @@
 			files = (
 				AF70F1E728210D8B004513EF /* ViewController.swift in Sources */,
 				AF70F1E328210D8B004513EF /* AppDelegate.swift in Sources */,
+				AF70F1FA28210E8D004513EF /* TableViewCellTwo.swift in Sources */,
+				AF70F1FE28210EA6004513EF /* TableViewCellFour.swift in Sources */,
+				AF70F20228210EB8004513EF /* TableViewCellSix.swift in Sources */,
+				AF70F1F828210E06004513EF /* TableViewCellOne.swift in Sources */,
+				AF70F1FC28210E98004513EF /* TableViewCellThree.swift in Sources */,
 				AF70F1E528210D8B004513EF /* SceneDelegate.swift in Sources */,
+				AF70F20028210EAE004513EF /* TableViewCellFive.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,23 +319,28 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "OVERYELL-StaticTableView/OVERYELL-StaticTableView.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 030913;
 				DEVELOPMENT_TEAM = 269NTZ4862;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "OVERYELL-StaticTableView/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = StaticTableView;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.22.05;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.overyell.OVERYELL-StaticTableView";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -313,23 +352,28 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "OVERYELL-StaticTableView/OVERYELL-StaticTableView.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 030913;
 				DEVELOPMENT_TEAM = 269NTZ4862;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "OVERYELL-StaticTableView/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = StaticTableView;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.22.05;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.overyell.OVERYELL-StaticTableView";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
